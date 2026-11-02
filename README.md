@@ -49,13 +49,10 @@ AI & MLOps           : Model Context Protocol (MCP), LangGraph, pgvector, XGBoos
 #### **[CricScore — Production Real-Time Multi-Cloud Cricket Platform](https://github.com/venkatesh-singamsetty/cricscore)**
 > *Real-time cricket scoring platform built with serverless AWS and Aiven PostgreSQL, featuring autonomous multi-agent AI and live win prediction.*
 
+https://github.com/user-attachments/assets/a20577b4-c841-48ee-81e3-67249ce3e9cb
+
 <p align="center">
-  <video src="https://github.com/venkatesh-singamsetty/venkatesh-singamsetty/raw/main/cricscore_demo_linkedin_fullscreen.MP4" width="340" controls="controls">
-    <a href="https://github.com/venkatesh-singamsetty/venkatesh-singamsetty/raw/main/cricscore_demo_linkedin_fullscreen.MP4">
-      <img src="assets/cricscore_demo_poster.png" width="340" alt="Watch CricScore Live Demo" style="border-radius: 10px;" /><br/>
-      <b>▶️ Click to Watch Full CricScore Live Demo Walkthrough (MP4)</b>
-    </a>
-  </video>
+  <i>▶️ Watch the CricScore full live demo walkthrough (Scorer, Viewer & AI ChatBot).</i>
 </p>
 
 - 🌐 **Live App:** [cricscore.venkateshsingamsetty.com](https://cricscore.venkateshsingamsetty.com) · [Architecture FAQ](https://github.com/venkatesh-singamsetty/cricscore/blob/main/docs/architecture_faq.md) · [Release v4.24.0](https://github.com/venkatesh-singamsetty/cricscore/releases/tag/v4.24.0)
