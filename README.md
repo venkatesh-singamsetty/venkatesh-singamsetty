@@ -47,20 +47,16 @@ AI & MLOps           : Model Context Protocol (MCP), LangGraph, pgvector, XGBoos
 ### 🏏 Featured Open-Source Project
 
 #### **[CricScore — Production Real-Time Multi-Cloud Cricket Platform](https://github.com/venkatesh-singamsetty/cricscore)**
-> *Real-time cricket scoring platform built with serverless AWS and Aiven PostgreSQL, featuring autonomous multi-agent AI and live win prediction.*
+> *Real-time cricket scoring and match analytics platform built with serverless AWS and Aiven PostgreSQL, featuring autonomous multi-agent AI and live win prediction.*
+
+🌐 **Website:** [cricscore.venkateshsingamsetty.com](https://cricscore.venkateshsingamsetty.com) &nbsp;|&nbsp; 💻 **GitHub Repo:** [venkatesh-singamsetty/cricscore](https://github.com/venkatesh-singamsetty/cricscore) &nbsp;|&nbsp; 🏷️ **Latest:** [v4.24.0](https://github.com/venkatesh-singamsetty/cricscore/releases/tag/v4.24.0)
 
 https://github.com/user-attachments/assets/a20577b4-c841-48ee-81e3-67249ce3e9cb
 
-<p align="center">
-  <i>▶️ Watch the CricScore full live demo walkthrough (Scorer, Viewer & AI ChatBot).</i>
-</p>
-
-- 🌐 **Live App:** [cricscore.venkateshsingamsetty.com](https://cricscore.venkateshsingamsetty.com) · [Architecture FAQ](https://github.com/venkatesh-singamsetty/cricscore/blob/main/docs/architecture_faq.md) · [Release v4.24.0](https://github.com/venkatesh-singamsetty/cricscore/releases/tag/v4.24.0)
-- 🤖 **Multi-Agent AI (MCP):** Uses an in-memory Model Context Protocol server to coordinate 6 specialist tools for live match SQL queries, tournament rules search (pgvector), free weather reports (Open-Meteo), GitHub issue reporting, and match situation analysis.
-- 🧠 **MLOps & Win Probability:** Trained on 786K+ deliveries tracked with DVC and MLflow; runs an XGBoost model verified with SHA-256 checksums from an S3 registry alongside a dynamic programming chase simulation for sub-100ms predictions.
-- ⚡ **Real-Time Streaming:** Uses Amazon SNS and WebSocket API Gateway for instant live score broadcasts, with SQS ensuring safe database persistence.
-- ☁️ **Multi-Cloud IaC:** 100% automated with Terraform across AWS and Aiven PostgreSQL, designed with a zero-idle footprint to run at minimal operational cost (~$1/mo).
-- 🛡️ **DevSecOps:** Automated CI/CD pipeline with GitLeaks, Checkov, Trivy, CodeQL, OWASP ZAP, Syft SBOM, and Playwright end-to-end tests.
+- ⚡ **Real-Time Live Scoring:** Sub-second ball-by-ball updates streamed via WebSockets with instant undo and multi-device sync.
+- 💬 **Interactive Match Chat & AI Assistant:** In-memory Model Context Protocol (MCP) server coordinating live SQL queries, rules search (`pgvector`), and interactive cricket Q&A.
+- 🧠 **MLOps Win Prediction:** XGBoost & dynamic programming chase simulation providing live win probabilities on every ball.
+- ☁️ **Serverless Multi-Cloud & DevSecOps:** 100% automated with Terraform across AWS and Aiven PostgreSQL with keyless OIDC, automated S3 lifecycles, and a **~$1/month** operational footprint.
 - 🏆 **[👉 View Engineering Pull Requests](https://github.com/venkatesh-singamsetty/cricscore/pulls?q=is%3Apr+author%3Avenkatesh-singamsetty)** *(hides automated bot PRs)*
 
 ---
