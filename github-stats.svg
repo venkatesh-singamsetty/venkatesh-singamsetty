@@ -69,14 +69,14 @@
   <!-- Card 1: Contributions -->
   <g transform="translate(36, 160)">
     <rect width="180" height="110" rx="14" fill="#1a2035" fill-opacity="0.8" stroke="#ffffff" stroke-opacity="0.12"/>
-    <text x="20" y="52" class="stat-num" fill="#10b981">992+</text>
+    <text x="20" y="52" class="stat-num" fill="#10b981">994+</text>
     <text x="20" y="82" class="stat-lbl">Contributions</text>
   </g>
 
   <!-- Card 2: Commits -->
   <g transform="translate(230, 160)">
     <rect width="180" height="110" rx="14" fill="#1a2035" fill-opacity="0.8" stroke="#ffffff" stroke-opacity="0.12"/>
-    <text x="20" y="52" class="stat-num" fill="#00f2fe">800</text>
+    <text x="20" y="52" class="stat-num" fill="#00f2fe">801</text>
     <text x="20" y="82" class="stat-lbl">All-Time Commits</text>
   </g>
 
