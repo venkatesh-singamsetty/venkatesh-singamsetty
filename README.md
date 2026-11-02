@@ -3,7 +3,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/venkatesh-singamsetty-471687a3)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:singamsetty.venkatesh7@gmail.com)
 [![Live Demo](https://img.shields.io/badge/Demo-CricScore-brightgreen?style=flat-square&logo=google-chrome&logoColor=white)](https://cricscore.venkateshsingamsetty.com)
-[![Latest Release](https://img.shields.io/badge/Release-v4.16.0-blue?style=flat-square&logo=github)](https://github.com/venkatesh-singamsetty/cricscore/releases/tag/v4.16.0)
+[![Latest Release](https://img.shields.io/badge/Release-v4.24.0-blue?style=flat-square&logo=github)](https://github.com/venkatesh-singamsetty/cricscore/releases/tag/v4.24.0)
 
 ---
 
@@ -49,12 +49,21 @@ AI & MLOps           : Model Context Protocol (MCP), LangGraph, pgvector, XGBoos
 #### **[CricScore — Production Real-Time Multi-Cloud Cricket Platform](https://github.com/venkatesh-singamsetty/cricscore)**
 > *Real-time cricket scoring platform built with serverless AWS and Aiven PostgreSQL, featuring autonomous multi-agent AI and live win prediction.*
 
-- 🌐 **Live App:** [cricscore.venkateshsingamsetty.com](https://cricscore.venkateshsingamsetty.com) · [Architecture FAQ](https://github.com/venkatesh-singamsetty/cricscore/blob/main/docs/architecture_faq.md) · [Release v4.16.0](https://github.com/venkatesh-singamsetty/cricscore/releases/tag/v4.16.0)
+<p align="center">
+  <video src="https://github.com/venkatesh-singamsetty/venkatesh-singamsetty/raw/main/cricscore_demo_linkedin_fullscreen.MP4" width="340" controls="controls">
+    <a href="https://github.com/venkatesh-singamsetty/venkatesh-singamsetty/raw/main/cricscore_demo_linkedin_fullscreen.MP4">
+      <img src="assets/cricscore_demo_poster.png" width="340" alt="Watch CricScore Live Demo" style="border-radius: 10px;" /><br/>
+      <b>▶️ Click to Watch Full CricScore Live Demo Walkthrough (MP4)</b>
+    </a>
+  </video>
+</p>
+
+- 🌐 **Live App:** [cricscore.venkateshsingamsetty.com](https://cricscore.venkateshsingamsetty.com) · [Architecture FAQ](https://github.com/venkatesh-singamsetty/cricscore/blob/main/docs/architecture_faq.md) · [Release v4.24.0](https://github.com/venkatesh-singamsetty/cricscore/releases/tag/v4.24.0)
 - 🤖 **Multi-Agent AI (MCP):** Uses an in-memory Model Context Protocol server to coordinate 6 specialist tools for live match SQL queries, tournament rules search (pgvector), free weather reports (Open-Meteo), GitHub issue reporting, and match situation analysis.
 - 🧠 **MLOps & Win Probability:** Trained on 786K+ deliveries tracked with DVC and MLflow; runs an XGBoost model verified with SHA-256 checksums from an S3 registry alongside a dynamic programming chase simulation for sub-100ms predictions.
 - ⚡ **Real-Time Streaming:** Uses Amazon SNS and WebSocket API Gateway for instant live score broadcasts, with SQS ensuring safe database persistence.
-- ☁️ **Multi-Cloud IaC:** 100% automated with Terraform across AWS and Aiven PostgreSQL, designed with a zero-idle footprint to run at minimal operational cost.
-- 🛡️ **DevSecOps:** Automated CI/CD pipeline with GitLeaks, Checkov, Trivy, CodeQL, OWASP ZAP, and Playwright end-to-end tests.
+- ☁️ **Multi-Cloud IaC:** 100% automated with Terraform across AWS and Aiven PostgreSQL, designed with a zero-idle footprint to run at minimal operational cost (~$1/mo).
+- 🛡️ **DevSecOps:** Automated CI/CD pipeline with GitLeaks, Checkov, Trivy, CodeQL, OWASP ZAP, Syft SBOM, and Playwright end-to-end tests.
 - 🏆 **[👉 View Engineering Pull Requests](https://github.com/venkatesh-singamsetty/cricscore/pulls?q=is%3Apr+author%3Avenkatesh-singamsetty)** *(hides automated bot PRs)*
 
 ---
