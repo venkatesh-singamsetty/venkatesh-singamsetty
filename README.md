@@ -46,10 +46,11 @@ AI & MLOps           : Model Context Protocol (MCP), LangGraph, pgvector, XGBoos
 
 ### 🏏 Featured Open-Source Project
 
-#### **[CricScore — Production Real-Time Multi-Cloud Cricket Platform](https://github.com/venkatesh-singamsetty/cricscore)**
+#### **CricScore — Production Real-Time Multi-Cloud Cricket Platform**
 > *Real-time cricket scoring and match analytics platform built with serverless AWS and Aiven PostgreSQL, featuring autonomous multi-agent AI and live win prediction.*
 
-🌐 **Website:** [cricscore.venkateshsingamsetty.com](https://cricscore.venkateshsingamsetty.com) &nbsp;|&nbsp; 💻 **GitHub Repo:** [venkatesh-singamsetty/cricscore](https://github.com/venkatesh-singamsetty/cricscore) &nbsp;|&nbsp; 🏷️ **Latest:** [v4.24.0](https://github.com/venkatesh-singamsetty/cricscore/releases/tag/v4.24.0)
+- 🌐 **Website:** [cricscore.venkateshsingamsetty.com](https://cricscore.venkateshsingamsetty.com)
+- 💻 **GitHub:** [github.com/venkatesh-singamsetty/cricscore](https://github.com/venkatesh-singamsetty/cricscore)
 
 https://github.com/user-attachments/assets/a20577b4-c841-48ee-81e3-67249ce3e9cb
 
@@ -57,7 +58,6 @@ https://github.com/user-attachments/assets/a20577b4-c841-48ee-81e3-67249ce3e9cb
 - 💬 **Interactive Match Chat & AI Assistant:** In-memory Model Context Protocol (MCP) server coordinating live SQL queries, rules search (`pgvector`), and interactive cricket Q&A.
 - 🧠 **MLOps Win Prediction:** XGBoost & dynamic programming chase simulation providing live win probabilities on every ball.
 - ☁️ **Serverless Multi-Cloud & DevSecOps:** 100% automated with Terraform across AWS and Aiven PostgreSQL with keyless OIDC, automated S3 lifecycles, and a **~$1/month** operational footprint.
-- 🏆 **[👉 View Engineering Pull Requests](https://github.com/venkatesh-singamsetty/cricscore/pulls?q=is%3Apr+author%3Avenkatesh-singamsetty)** *(hides automated bot PRs)*
 
 ---
 
