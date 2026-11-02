@@ -52,7 +52,7 @@ AI & MLOps           : Model Context Protocol (MCP), LangGraph, pgvector, XGBoos
 - 🌐 **Website:** [cricscore.venkateshsingamsetty.com](https://cricscore.venkateshsingamsetty.com)
 - 💻 **GitHub:** [github.com/venkatesh-singamsetty/cricscore](https://github.com/venkatesh-singamsetty/cricscore)
 
-https://github.com/user-attachments/assets/a20577b4-c841-48ee-81e3-67249ce3e9cb
+https://github.com/user-attachments/assets/67f96c78-df51-4247-b5d1-f5ea4db52366
 
 - ⚡ **Real-Time Live Scoring:** Sub-second ball-by-ball updates streamed via WebSockets with instant undo and multi-device sync.
 - 💬 **Interactive Match Chat & AI Assistant:** In-memory Model Context Protocol (MCP) server coordinating live SQL queries, rules search (`pgvector`), and interactive cricket Q&A.
